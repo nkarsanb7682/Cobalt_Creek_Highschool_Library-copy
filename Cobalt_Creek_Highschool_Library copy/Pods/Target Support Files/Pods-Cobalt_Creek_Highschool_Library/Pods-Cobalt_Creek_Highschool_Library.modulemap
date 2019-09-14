@@ -1,0 +1,6 @@
+framework module Pods_Cobalt_Creek_Highschool_Library {
+  umbrella header "Pods-Cobalt_Creek_Highschool_Library-umbrella.h"
+
+  export *
+  module * { export * }
+}

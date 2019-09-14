@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		56E7DCC297D2C5EC780F09B5 /* Pods_Cobalt_Creek_Highschool_Library.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C810D685ED40D34102CEDD36 /* Pods_Cobalt_Creek_Highschool_Library.framework */; };
+		F21B7C251F48FA76006ECC15 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21B7C241F48FA76006ECC15 /* AppDelegate.swift */; };
+		F21B7C2A1F48FA76006ECC15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F21B7C281F48FA76006ECC15 /* Main.storyboard */; };
+		F21B7C2C1F48FA76006ECC15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F21B7C2B1F48FA76006ECC15 /* Assets.xcassets */; };
+		F21B7C2F1F48FA76006ECC15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F21B7C2D1F48FA76006ECC15 /* LaunchScreen.storyboard */; };
+		F21B7C3D1F490FE3006ECC15 /* BookInputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21B7C3C1F490FE3006ECC15 /* BookInputViewController.swift */; };
+		F21B7C411F4C853C006ECC15 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F21B7C401F4C853C006ECC15 /* GoogleService-Info.plist */; };
+		F23AE51F2003F8690085C702 /* ManageCheckoutRequestsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23AE51E2003F8690085C702 /* ManageCheckoutRequestsViewController.swift */; };
+		F23AE5232005D60B0085C702 /* Full Radio.png in Resources */ = {isa = PBXBuildFile; fileRef = F23AE5222005D60B0085C702 /* Full Radio.png */; };
+		F23AE5252005D6110085C702 /* Empty Radio.png in Resources */ = {isa = PBXBuildFile; fileRef = F23AE5242005D6110085C702 /* Empty Radio.png */; };
+		F23AE5272005D63A0085C702 /* Cross 3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F23AE5262005D63A0085C702 /* Cross 3x.png */; };
+		F23AE5292005D6440085C702 /* Check Mark 3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F23AE5282005D6440085C702 /* Check Mark 3x.png */; };
+		F23AE52B2005D6710085C702 /* Open Screen.png in Resources */ = {isa = PBXBuildFile; fileRef = F23AE52A2005D6710085C702 /* Open Screen.png */; };
+		F23AE52D2005D6A60085C702 /* Library Map.png in Resources */ = {isa = PBXBuildFile; fileRef = F23AE52C2005D6A60085C702 /* Library Map.png */; };
+		F23AE52F2007C76B0085C702 /* SymbolWithLibrary.png in Resources */ = {isa = PBXBuildFile; fileRef = F23AE52E2007C7690085C702 /* SymbolWithLibrary.png */; };
+		F24005C21F7D3DF20037BF53 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24005C11F7D3DF20037BF53 /* MapViewController.swift */; };
+		F24005C51F7D51EB0037BF53 /* BookBrowsingHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24005C41F7D51EB0037BF53 /* BookBrowsingHomeViewController.swift */; };
+		F24005CB1F7D52940037BF53 /* BookBrowsingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24005CA1F7D52940037BF53 /* BookBrowsingTableViewController.swift */; };
+		F24843F51F4C89FA0022816E /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24843F41F4C89FA0022816E /* CreateAccountViewController.swift */; };
+		F24843F91F4C8C580022816E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24843F81F4C8C580022816E /* HomeViewController.swift */; };
+		F24843FB1F4D1CCD0022816E /* AccountManagementViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24843FA1F4D1CCD0022816E /* AccountManagementViewController.swift */; };
+		F24843FD1F4DD13E0022816E /* RegisterLibrarianViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24843FC1F4DD13E0022816E /* RegisterLibrarianViewController.swift */; };
+		F24843FF1F4F42CE0022816E /* SignInAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24843FE1F4F42CE0022816E /* SignInAccountViewController.swift */; };
+		F24844011F5474B60022816E /* StorePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24844001F5474B50022816E /* StorePageViewController.swift */; };
+		F24844201F619F390022816E /* ManualInputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F248441F1F619F390022816E /* ManualInputViewController.swift */; };
+		F27759F01F6AD6A600BF6ED2 /* GenreSelectorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27759EF1F6AD6A600BF6ED2 /* GenreSelectorViewController.swift */; };
+		F2D5E2E9204E544D0055A128 /* 9K3DWv7M_400x400.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F2D5E2E8204E544C0055A128 /* 9K3DWv7M_400x400.jpg */; };
+		F2F0CEBA1F8BE7B600E69843 /* BookBrowsingCatagoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F0CEB91F8BE7B600E69843 /* BookBrowsingCatagoriesViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8F5A6E6D578DF206EC6822D5 /* Pods-Cobalt_Creek_Highschool_Library.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cobalt_Creek_Highschool_Library.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Cobalt_Creek_Highschool_Library/Pods-Cobalt_Creek_Highschool_Library.debug.xcconfig"; sourceTree = "<group>"; };
+		B6AC9C826ED04542E43C72C8 /* Pods-Cobalt_Creek_Highschool_Library.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cobalt_Creek_Highschool_Library.release.xcconfig"; path = "Pods/Target Support Files/Pods-Cobalt_Creek_Highschool_Library/Pods-Cobalt_Creek_Highschool_Library.release.xcconfig"; sourceTree = "<group>"; };
+		C810D685ED40D34102CEDD36 /* Pods_Cobalt_Creek_Highschool_Library.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cobalt_Creek_Highschool_Library.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F21B7C211F48FA76006ECC15 /* Cobalt_Creek_Highschool_Library.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cobalt_Creek_Highschool_Library.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F21B7C241F48FA76006ECC15 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F21B7C291F48FA76006ECC15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F21B7C2B1F48FA76006ECC15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F21B7C2E1F48FA76006ECC15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F21B7C301F48FA76006ECC15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F21B7C3C1F490FE3006ECC15 /* BookInputViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookInputViewController.swift; sourceTree = "<group>"; };
+		F21B7C401F4C853C006ECC15 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F23563D81FFF0D9D002A2A79 /* Empty Star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Empty Star.png"; path = "images:icons/Empty Star.png"; sourceTree = SOURCE_ROOT; };
+		F23563D91FFF0DD3002A2A79 /* Three Fourths Star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Three Fourths Star.png"; path = "images:icons/Three Fourths Star.png"; sourceTree = SOURCE_ROOT; };
+		F23563DA1FFF0DD9002A2A79 /* Quarter Star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Quarter Star.png"; path = "images:icons/Quarter Star.png"; sourceTree = SOURCE_ROOT; };
+		F23563DB1FFF0DE0002A2A79 /* Half Star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Half Star.png"; path = "images:icons/Half Star.png"; sourceTree = SOURCE_ROOT; };
+		F23AE51D2003E03A0085C702 /* Cobalt_Creek_Highschool_Library.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Cobalt_Creek_Highschool_Library.entitlements; sourceTree = "<group>"; };
+		F23AE51E2003F8690085C702 /* ManageCheckoutRequestsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManageCheckoutRequestsViewController.swift; sourceTree = "<group>"; };
+		F23AE5222005D60B0085C702 /* Full Radio.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Full Radio.png"; path = "images:icons/Full Radio.png"; sourceTree = SOURCE_ROOT; };
+		F23AE5242005D6110085C702 /* Empty Radio.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Empty Radio.png"; path = "images:icons/Empty Radio.png"; sourceTree = SOURCE_ROOT; };
+		F23AE5262005D63A0085C702 /* Cross 3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Cross 3x.png"; path = "images:icons/Cross 3x.png"; sourceTree = SOURCE_ROOT; };
+		F23AE5282005D6440085C702 /* Check Mark 3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Check Mark 3x.png"; path = "images:icons/Check Mark 3x.png"; sourceTree = SOURCE_ROOT; };
+		F23AE52A2005D6710085C702 /* Open Screen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Open Screen.png"; path = "images:icons/Open Screen.png"; sourceTree = SOURCE_ROOT; };
+		F23AE52C2005D6A60085C702 /* Library Map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Library Map.png"; path = "images:icons/Library Map.png"; sourceTree = SOURCE_ROOT; };
+		F23AE52E2007C7690085C702 /* SymbolWithLibrary.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SymbolWithLibrary.png; path = "images:icons/SymbolWithLibrary.png"; sourceTree = SOURCE_ROOT; };
+		F24005C11F7D3DF20037BF53 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		F24005C31F7D40310037BF53 /* Library Map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Library Map.png"; sourceTree = "<group>"; };
+		F24005C41F7D51EB0037BF53 /* BookBrowsingHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookBrowsingHomeViewController.swift; sourceTree = "<group>"; };
+		F24005CA1F7D52940037BF53 /* BookBrowsingTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookBrowsingTableViewController.swift; sourceTree = "<group>"; };
+		F24843F41F4C89FA0022816E /* CreateAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
+		F24843F81F4C8C580022816E /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		F24843FA1F4D1CCD0022816E /* AccountManagementViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountManagementViewController.swift; sourceTree = "<group>"; };
+		F24843FC1F4DD13E0022816E /* RegisterLibrarianViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterLibrarianViewController.swift; sourceTree = "<group>"; };
+		F24843FE1F4F42CE0022816E /* SignInAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInAccountViewController.swift; sourceTree = "<group>"; };
+		F24844001F5474B50022816E /* StorePageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StorePageViewController.swift; sourceTree = "<group>"; };
+		F248441F1F619F390022816E /* ManualInputViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManualInputViewController.swift; sourceTree = "<group>"; };
+		F27759EF1F6AD6A600BF6ED2 /* GenreSelectorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenreSelectorViewController.swift; sourceTree = "<group>"; };
+		F2A936911FFF0BF300299145 /* rsz_image_not_found_.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rsz_image_not_found_.png; path = "images:icons/rsz_image_not_found_.png"; sourceTree = SOURCE_ROOT; };
+		F2A936921FFF0C5E00299145 /* Full Star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Full Star.png"; path = "images:icons/Full Star.png"; sourceTree = SOURCE_ROOT; };
+		F2D5E2E8204E544C0055A128 /* 9K3DWv7M_400x400.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 9K3DWv7M_400x400.jpg; path = "images:icons/9K3DWv7M_400x400.jpg"; sourceTree = SOURCE_ROOT; };
+		F2F0CEB91F8BE7B600E69843 /* BookBrowsingCatagoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookBrowsingCatagoriesViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F21B7C1E1F48FA76006ECC15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56E7DCC297D2C5EC780F09B5 /* Pods_Cobalt_Creek_Highschool_Library.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B3676CE1F805CF1D9DC59BB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8F5A6E6D578DF206EC6822D5 /* Pods-Cobalt_Creek_Highschool_Library.debug.xcconfig */,
+				B6AC9C826ED04542E43C72C8 /* Pods-Cobalt_Creek_Highschool_Library.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		39F6DA0B3316B4ED605E1AAB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C810D685ED40D34102CEDD36 /* Pods_Cobalt_Creek_Highschool_Library.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F21B7C181F48FA76006ECC15 = {
+			isa = PBXGroup;
+			children = (
+				F21B7C231F48FA76006ECC15 /* Cobalt_Creek_Highschool_Library */,
+				F21B7C241F48FA76006ECC15 /* AppDelegate.swift */,
+				F21B7C221F48FA76006ECC15 /* Products */,
+				2B3676CE1F805CF1D9DC59BB /* Pods */,
+				39F6DA0B3316B4ED605E1AAB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F21B7C221F48FA76006ECC15 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F21B7C211F48FA76006ECC15 /* Cobalt_Creek_Highschool_Library.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F21B7C231F48FA76006ECC15 /* Cobalt_Creek_Highschool_Library */ = {
+			isa = PBXGroup;
+			children = (
+				F23AE51D2003E03A0085C702 /* Cobalt_Creek_Highschool_Library.entitlements */,
+				F21B7C281F48FA76006ECC15 /* Main.storyboard */,
+				F23AE51E2003F8690085C702 /* ManageCheckoutRequestsViewController.swift */,
+				F24843F81F4C8C580022816E /* HomeViewController.swift */,
+				F24005C11F7D3DF20037BF53 /* MapViewController.swift */,
+				F24005C71F7D520A0037BF53 /* BookBrowsingViewControllers */,
+				F24844061F5F02940022816E /* AccountViewControllers */,
+				F24844091F5F02F90022816E /* AddingBooksViewControllers */,
+				F248440E1F5F04F70022816E /* Images */,
+				F21B7C2B1F48FA76006ECC15 /* Assets.xcassets */,
+				F21B7C2D1F48FA76006ECC15 /* LaunchScreen.storyboard */,
+				F21B7C301F48FA76006ECC15 /* Info.plist */,
+				F21B7C401F4C853C006ECC15 /* GoogleService-Info.plist */,
+			);
+			path = Cobalt_Creek_Highschool_Library;
+			sourceTree = "<group>";
+		};
+		F24005C71F7D520A0037BF53 /* BookBrowsingViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				F24844001F5474B50022816E /* StorePageViewController.swift */,
+				F2F0CEB91F8BE7B600E69843 /* BookBrowsingCatagoriesViewController.swift */,
+				F24005C41F7D51EB0037BF53 /* BookBrowsingHomeViewController.swift */,
+				F24005CA1F7D52940037BF53 /* BookBrowsingTableViewController.swift */,
+			);
+			name = BookBrowsingViewControllers;
+			sourceTree = "<group>";
+		};
+		F24844061F5F02940022816E /* AccountViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				F24843F41F4C89FA0022816E /* CreateAccountViewController.swift */,
+				F24843FE1F4F42CE0022816E /* SignInAccountViewController.swift */,
+				F24843FA1F4D1CCD0022816E /* AccountManagementViewController.swift */,
+				F24843FC1F4DD13E0022816E /* RegisterLibrarianViewController.swift */,
+			);
+			name = AccountViewControllers;
+			sourceTree = "<group>";
+		};
+		F24844091F5F02F90022816E /* AddingBooksViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				F27759EF1F6AD6A600BF6ED2 /* GenreSelectorViewController.swift */,
+				F21B7C3C1F490FE3006ECC15 /* BookInputViewController.swift */,
+				F248441F1F619F390022816E /* ManualInputViewController.swift */,
+			);
+			name = AddingBooksViewControllers;
+			sourceTree = "<group>";
+		};
+		F248440E1F5F04F70022816E /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				F2D5E2E8204E544C0055A128 /* 9K3DWv7M_400x400.jpg */,
+				F23AE52E2007C7690085C702 /* SymbolWithLibrary.png */,
+				F2A936911FFF0BF300299145 /* rsz_image_not_found_.png */,
+				F23563D91FFF0DD3002A2A79 /* Three Fourths Star.png */,
+				F23AE52A2005D6710085C702 /* Open Screen.png */,
+				F23AE52C2005D6A60085C702 /* Library Map.png */,
+				F23563DA1FFF0DD9002A2A79 /* Quarter Star.png */,
+				F23AE5282005D6440085C702 /* Check Mark 3x.png */,
+				F23AE5222005D60B0085C702 /* Full Radio.png */,
+				F23563DB1FFF0DE0002A2A79 /* Half Star.png */,
+				F23AE5242005D6110085C702 /* Empty Radio.png */,
+				F23AE5262005D63A0085C702 /* Cross 3x.png */,
+				F2A936921FFF0C5E00299145 /* Full Star.png */,
+				F23563D81FFF0D9D002A2A79 /* Empty Star.png */,
+				F24005C31F7D40310037BF53 /* Library Map.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F21B7C201F48FA76006ECC15 /* Cobalt_Creek_Highschool_Library */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F21B7C331F48FA76006ECC15 /* Build configuration list for PBXNativeTarget "Cobalt_Creek_Highschool_Library" */;
+			buildPhases = (
+				22365D2EE2E0C86A33CAD193 /* [CP] Check Pods Manifest.lock */,
+				F21B7C1D1F48FA76006ECC15 /* Sources */,
+				F21B7C1E1F48FA76006ECC15 /* Frameworks */,
+				F21B7C1F1F48FA76006ECC15 /* Resources */,
+				A8E91AB04128F73D5748C863 /* [CP] Embed Pods Frameworks */,
+				B8EEDCBE5F4E9A3EBC373532 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cobalt_Creek_Highschool_Library;
+			productName = Cobalt_Creek_Highschool_Library;
+			productReference = F21B7C211F48FA76006ECC15 /* Cobalt_Creek_Highschool_Library.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F21B7C191F48FA76006ECC15 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Grant Falkner";
+				TargetAttributes = {
+					F21B7C201F48FA76006ECC15 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = VCSKY59EJK;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = F21B7C1C1F48FA76006ECC15 /* Build configuration list for PBXProject "Cobalt_Creek_Highschool_Library" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F21B7C181F48FA76006ECC15;
+			productRefGroup = F21B7C221F48FA76006ECC15 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F21B7C201F48FA76006ECC15 /* Cobalt_Creek_Highschool_Library */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F21B7C1F1F48FA76006ECC15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F21B7C2F1F48FA76006ECC15 /* LaunchScreen.storyboard in Resources */,
+				F23AE5272005D63A0085C702 /* Cross 3x.png in Resources */,
+				F21B7C411F4C853C006ECC15 /* GoogleService-Info.plist in Resources */,
+				F23AE5252005D6110085C702 /* Empty Radio.png in Resources */,
+				F23AE5232005D60B0085C702 /* Full Radio.png in Resources */,
+				F21B7C2C1F48FA76006ECC15 /* Assets.xcassets in Resources */,
+				F21B7C2A1F48FA76006ECC15 /* Main.storyboard in Resources */,
+				F23AE52D2005D6A60085C702 /* Library Map.png in Resources */,
+				F23AE52B2005D6710085C702 /* Open Screen.png in Resources */,
+				F23AE5292005D6440085C702 /* Check Mark 3x.png in Resources */,
+				F2D5E2E9204E544D0055A128 /* 9K3DWv7M_400x400.jpg in Resources */,
+				F23AE52F2007C76B0085C702 /* SymbolWithLibrary.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		22365D2EE2E0C86A33CAD193 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Cobalt_Creek_Highschool_Library-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A8E91AB04128F73D5748C863 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Cobalt_Creek_Highschool_Library/Pods-Cobalt_Creek_Highschool_Library-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/OAuthSwift/OAuthSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OAuthSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Cobalt_Creek_Highschool_Library/Pods-Cobalt_Creek_Highschool_Library-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B8EEDCBE5F4E9A3EBC373532 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Cobalt_Creek_Highschool_Library/Pods-Cobalt_Creek_Highschool_Library-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F21B7C1D1F48FA76006ECC15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F24005C21F7D3DF20037BF53 /* MapViewController.swift in Sources */,
+				F24005CB1F7D52940037BF53 /* BookBrowsingTableViewController.swift in Sources */,
+				F24844201F619F390022816E /* ManualInputViewController.swift in Sources */,
+				F24843FB1F4D1CCD0022816E /* AccountManagementViewController.swift in Sources */,
+				F23AE51F2003F8690085C702 /* ManageCheckoutRequestsViewController.swift in Sources */,
+				F24843F51F4C89FA0022816E /* CreateAccountViewController.swift in Sources */,
+				F24844011F5474B60022816E /* StorePageViewController.swift in Sources */,
+				F24843FD1F4DD13E0022816E /* RegisterLibrarianViewController.swift in Sources */,
+				F24843FF1F4F42CE0022816E /* SignInAccountViewController.swift in Sources */,
+				F21B7C3D1F490FE3006ECC15 /* BookInputViewController.swift in Sources */,
+				F21B7C251F48FA76006ECC15 /* AppDelegate.swift in Sources */,
+				F24005C51F7D51EB0037BF53 /* BookBrowsingHomeViewController.swift in Sources */,
+				F24843F91F4C8C580022816E /* HomeViewController.swift in Sources */,
+				F2F0CEBA1F8BE7B600E69843 /* BookBrowsingCatagoriesViewController.swift in Sources */,
+				F27759F01F6AD6A600BF6ED2 /* GenreSelectorViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F21B7C281F48FA76006ECC15 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F21B7C291F48FA76006ECC15 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F21B7C2D1F48FA76006ECC15 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F21B7C2E1F48FA76006ECC15 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F21B7C311F48FA76006ECC15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COMPRESS_PNG_FILES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F21B7C321F48FA76006ECC15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COMPRESS_PNG_FILES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F21B7C341F48FA76006ECC15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F5A6E6D578DF206EC6822D5 /* Pods-Cobalt_Creek_Highschool_Library.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Cobalt_Creek_Highschool_Library/Cobalt_Creek_Highschool_Library.entitlements;
+				COMPRESS_PNG_FILES = YES;
+				DEVELOPMENT_TEAM = VCSKY59EJK;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"$(inherited)",
+					"GPB_USE_PROTOBUF_FRAMEWORK_IMPORTS=1",
+					"$(inherited)",
+					"PB_FIELD_32BIT=1",
+					"PB_NO_PACKED_STRUCTS=1",
+					"DISABLE_PUSH_NOTIFICATIONS=1",
+				);
+				INFOPLIST_FILE = Cobalt_Creek_Highschool_Library/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Cobalt-Creek-Highschool-Library-ID";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F21B7C351F48FA76006ECC15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6AC9C826ED04542E43C72C8 /* Pods-Cobalt_Creek_Highschool_Library.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Cobalt_Creek_Highschool_Library/Cobalt_Creek_Highschool_Library.entitlements;
+				COMPRESS_PNG_FILES = YES;
+				DEVELOPMENT_TEAM = VCSKY59EJK;
+				"GCC_PREPROCESSOR_DEFINITIONS[arch=*]" = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"$(inherited)",
+					"GPB_USE_PROTOBUF_FRAMEWORK_IMPORTS=1",
+					"$(inherited)",
+					"PB_FIELD_32BIT=1",
+					"PB_NO_PACKED_STRUCTS=1",
+				);
+				INFOPLIST_FILE = Cobalt_Creek_Highschool_Library/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Cobalt-Creek-Highschool-Library-ID";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F21B7C1C1F48FA76006ECC15 /* Build configuration list for PBXProject "Cobalt_Creek_Highschool_Library" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F21B7C311F48FA76006ECC15 /* Debug */,
+				F21B7C321F48FA76006ECC15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F21B7C331F48FA76006ECC15 /* Build configuration list for PBXNativeTarget "Cobalt_Creek_Highschool_Library" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F21B7C341F48FA76006ECC15 /* Debug */,
+				F21B7C351F48FA76006ECC15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F21B7C191F48FA76006ECC15 /* Project object */;
+}
